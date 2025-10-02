@@ -17,12 +17,12 @@ Tampilan dibuat mirip **WhatsApp Web** dengan bubble chat kanan-kiri.
 ## ⚙️ Instalasi & Menjalankan
 
 1. **Clone repository / pindah ke folder project**
-
+   ```bash
    cd minichat
 
-3. Buat Virtual Environment (opsional)
+2. Buat Virtual Environment (opsional)
    
-python -m venv venv
+   python -m venv venv
 
 3. Aktifkan Virtual Environment
 
