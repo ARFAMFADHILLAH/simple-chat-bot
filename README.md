@@ -17,7 +17,7 @@ Tampilan dibuat mirip **WhatsApp Web** dengan bubble chat kanan-kiri.
 ## 📸 Tampilan
 Tampilan Chatbot versi WhatsApp style:  
 
-![Chatbot Screenshot](screenshots/chatbot.png)  
+![Chatbot Screenshot](../screenshots/chatbot.png)  
 
 
 ---
