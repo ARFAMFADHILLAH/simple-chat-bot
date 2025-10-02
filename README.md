@@ -14,16 +14,39 @@ Tampilan dibuat mirip **WhatsApp Web** dengan bubble chat kanan-kiri.
 
 ---
 
-## 📸 Tampilan
-Tampilan Chatbot versi WhatsApp style:  
-
-![Chatbot Screenshot](../screenshots/chatbot.png)  
-
-
----
-
 ## ⚙️ Instalasi & Menjalankan
 
 1. **Clone repository / pindah ke folder project**
    ```bash
    cd minichat
+
+2. Buat Virtual Environment (opsional)
+
+python -m venv venv
+
+
+3. Aktifkan Virtual Environment
+
+Windows:
+
+venv\Scripts\activate
+
+
+Mac/Linux:
+
+source venv/bin/activate
+
+
+4. Install dependencies
+
+pip install flask
+
+
+5. Jalankan Flask
+
+python app.py
+
+
+6. Buka di browser
+
+http://127.0.0.1:5000
