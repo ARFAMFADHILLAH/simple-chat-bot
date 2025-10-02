@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ece5dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.chat-container {
+    width: 400px;
+    height: 600px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* Header hijau */
+.chat-header {
+    background: #075e54;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Area chat */
+#chat-box {
+    flex: 1;
+    background: url("https://i.ibb.co/ZYW3VTp/whatsapp-bg.png");
+    background-size: cover;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+/* Bubble user (kanan, hijau) */
+.user {
+    background: #dcf8c6;
+    color: #000;
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 8px 0 8px 8px;
+    margin: 6px 0;
+    max-width: 70%;
+    word-wrap: break-word;
+    float: right;
+    clear: both;
+}
+
+/* Bubble bot (kiri, putih) */
+.bot {
+    background: #fff;
+    color: #000;
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 0 8px 8px 8px;
+    margin: 6px 0;
+    max-width: 70%;
+    word-wrap: break-word;
+    float: left;
+    clear: both;
+    border: 1px solid #f1f1f1;
+}
+
+/* Input bawah */
+.input-container {
+    display: flex;
+    padding: 10px;
+    background: #f0f0f0;
+}
+
+.input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 14px;
+}
+
+button {
+    margin-left: 8px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50%;
+    background: #075e54;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #0a7c64;
+}
