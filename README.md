@@ -21,9 +21,9 @@ Tampilan dibuat mirip **WhatsApp Web** dengan bubble chat kanan-kiri.
    cd minichat
 
 2. Buat Virtual Environment (opsional)
-
+   
+```bash
 python -m venv venv
-
 
 3. Aktifkan Virtual Environment
 
@@ -39,6 +39,7 @@ source venv/bin/activate
 
 4. Install dependencies
 
+```bash
 pip install flask
 
 
